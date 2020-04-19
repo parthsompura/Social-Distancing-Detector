@@ -16,6 +16,7 @@ The demos below will help to visually explain our approach that consists of thre
 
 # Output (Video)
 ![This demo video is performed on the public “OXFORD TOWN CENTRE” dataset](https://github.com/ParthPathak27/Social-Distancing-Detector/blob/master/output.gif)
+This demo video is performed on the public “OXFORD TOWN CENTRE” dataset
 
 # Requirements:
 
