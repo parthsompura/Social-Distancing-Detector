@@ -6,7 +6,7 @@ An AI Tool to Help Customers Monitor Social Distancing in the Workplace4
 3. Classify the determined distances as 'Alert' or 'Ok' for social distancing.
 
 # Output (Image)
-![screenshot](https://github.com/ParthPathak27/Social-Distancing-Detector/blob/master/Social%20Distance%20Detector/output.jpg)
+![screenshot](https://github.com/ParthPathak27/Social-Distancing-Detector/blob/master/output.jpg)
 
 # Requirements:
 
