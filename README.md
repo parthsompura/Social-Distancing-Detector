@@ -3,7 +3,7 @@ An AI Tool to Help Customers Monitor Social Distancing in the Workplace.
 
 In the fight against the coronavirus, social distancing has proven to be a very effective measure to slow down the spread of the disease. While millions of people are staying at home to help flatten the curve, many of our customers in the manufacturing and pharmaceutical industries are still having to go to work everyday to make sure our basic needs are met.
 
-To complement our customers’ efforts and to help ensure social distancing protocol in their workplace, Landing AI has developed an AI-enabled social distancing detection tool that can detect if people are keeping a safe distance from each other by analyzing real time video streams from the camera.
+To help ensure social distancing protocol in their workplace, I have developed an AI-enabled social distancing detection tool that can detect if people are keeping a safe distance from each other by analyzing real time video streams from the camera.
 
 The demos below will help to visually explain our approach that consists of three main steps:
 
