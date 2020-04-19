@@ -23,3 +23,7 @@ Download yolov3.weights for COCO dataset from this link and add it to your repo,
 * To deploy algorithm on images, python SDD_Image.py
 * To deploy algorithm on videos, python SDD_Video.py
 * To deploy algorithm on live streaming webcam, python SDD_Camera.py
+
+# Reference:
+
+https://landing.ai/landing-ai-creates-an-ai-tool-to-help-customers-monitor-social-distancing-in-the-workplace/
