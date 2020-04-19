@@ -1,4 +1,4 @@
-# Social Distancing Detector
+# Social-Distancing-Detector
 An AI Tool to Help Customers Monitor Social Distancing in the Workplace.
 
 In the fight against the coronavirus, social distancing has proven to be a very effective measure to slow down the spread of the disease. While millions of people are staying at home to help flatten the curve, many of our customers in the manufacturing and pharmaceutical industries are still having to go to work everyday to make sure our basic needs are met.
