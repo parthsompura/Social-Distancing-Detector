@@ -16,7 +16,7 @@ An AI Tool to Help Customers Monitor Social Distancing in the Workplace4
 4. Math
 5. Time
 
-Download the below file and add them to your repo: [click here](https://pjreddie.com/darknet/yolo/)
+Download yolov3.weights for COCO dataset from this link and add it to your repo, [click here](https://pjreddie.com/darknet/yolo/)
 
 # Installation of Model:
 
