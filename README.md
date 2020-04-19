@@ -5,4 +5,4 @@ An AI Tool to Help Customers Monitor Social Distancing in the Workplace4
 2. Calculate the distance between all the instances of humans detected in the frame.
 3. Classify the determined distances as 'Alert' or 'Ok' for social distancing.
 
-![screenshot](Social Distance Detector/output.jpg)
+![screenshot](./Social Distance Detector/output.jpg)
