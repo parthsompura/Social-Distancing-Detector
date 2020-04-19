@@ -8,6 +8,9 @@ An AI Tool to Help Customers Monitor Social Distancing in the Workplace4
 # Output (Image)
 ![screenshot](https://github.com/ParthPathak27/Social-Distancing-Detector/blob/master/output.jpg)
 
+# Output (Video)
+![This demo video is performed on the public “OXFORD TOWN CENTRE” dataset]()
+
 # Requirements:
 
 1. Numpy
