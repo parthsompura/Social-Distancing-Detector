@@ -14,16 +14,16 @@ The demos below will help to visually explain our approach that consists of thre
 2. Calculate the distance between all the instances of humans detected in the frame.
 3. Classify the determined distances as 'Alert' or 'Ok' for social distancing.
 
-# Output (Image)
+### Output (Image)
 ![screenshot](https://github.com/ParthPathak27/Social-Distancing-Detector/blob/master/output.jpg)
 
-# Output (Video)
+### Output (Video)
 This demo video is performed on the public “OXFORD TOWN CENTRE” dataset
 
 ![This demo video is performed on the public “OXFORD TOWN CENTRE” dataset](https://github.com/ParthPathak27/Social-Distancing-Detector/blob/master/output.gif)
 
 
-# Requirements:
+### Requirements:
 
 1. Numpy
 2. Time
@@ -33,7 +33,7 @@ This demo video is performed on the public “OXFORD TOWN CENTRE” dataset
 
 Download yolov3.weights for COCO dataset from this link and add it to your repo, [click here](https://pjreddie.com/darknet/yolo/)
 
-# Installation of Model:
+### Installation of Model:
 
 * To deploy algorithm on images, python SDD_Image.py
 * To deploy algorithm on videos, python SDD_Video.py
