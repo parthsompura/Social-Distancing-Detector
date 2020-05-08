@@ -8,7 +8,7 @@ In the fight against the coronavirus, social distancing has proven to be a very 
 
 To help ensure social distancing protocol in their workplace, I have developed an AI-enabled social distancing detection tool that can detect if people are keeping a safe distance from each other by analyzing real time video streams from the camera.
 
-The demos below will help to visually explain our approach that consists of three main steps:
+The demos below will help to visually explain the approach that consists of three main steps:
 
 1. Detect the humans in the frame with yolov3 convolutional neural network.
 2. Calculate the distance between all the instances of humans detected in the frame.
