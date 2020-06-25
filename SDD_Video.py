@@ -12,16 +12,18 @@ COLORS = np.random.randint(0, 255, size=(len(LABELS), 3),
 
 weightsPath = "./yolov3.weights"
 configPath = "./yolov3.cfg"
-cap = cv2.VideoCapture('./videos/test_video.avi')
+cap = cv2.VideoCapture('./videos/test_video.mp4')
 hasFrame, frame = cap.read()
 net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
 vid_writer = cv2.VideoWriter('output.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 10, (frame.shape[1],frame.shape[0]))
 
 
 
-while cv2.waitKey(1) < 0:
+while True:
     
     ret,image=cap.read()
+	if not ret:
+		break
     image=cv2.resize(image,(640,360))
     (H, W) = image.shape[:2]
     ln = net.getLayerNames()
@@ -79,7 +81,7 @@ while cv2.waitKey(1) < 0:
                     nsd.append(i)
                     nsd.append(k)
                 nsd = list(dict.fromkeys(nsd))
-                print(nsd)
+                
     color = (0, 0, 255) 
     for i in nsd:
         (x, y) = (boxes[i][0], boxes[i][1])
