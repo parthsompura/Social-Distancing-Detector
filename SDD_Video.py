@@ -12,7 +12,7 @@ COLORS = np.random.randint(0, 255, size=(len(LABELS), 3),
 
 weightsPath = "./yolov3.weights"
 configPath = "./yolov3.cfg"
-cap = cv2.VideoCapture('./videos/test_video.avi')
+cap = cv2.VideoCapture('./videos/test_video.mp4')
 hasFrame, frame = cap.read()
 net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
 vid_writer = cv2.VideoWriter('output.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 10, (frame.shape[1],frame.shape[0]))
